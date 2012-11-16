@@ -185,7 +185,7 @@ else if ((substr_count($_SERVER['REQUEST_URI'], 'adwords')>0)&&($_COOKIE['ads']!
 
             <div class="content">
                 <ul class="menu clearfix">
-                    <li class="curent"><a href="/projects.htm" title="">Проекты и цены</a>
+                    <li class="curent"><i></i><a href="/projects.htm" title="">Наши проекты</a>
                         <ul class="second-menu">
                             <li class="m01"><a href="#" title="">«Горки-10»</a>
                                 <ul class="third-menu <? if(strstr($_SERVER['REQUEST_URI'], 'plan.htm')!='') echo 'ax';
@@ -248,24 +248,24 @@ else if ((substr_count($_SERVER['REQUEST_URI'], 'adwords')>0)&&($_COOKIE['ads']!
                 <div class="links  links-second">
                     <ul class="m01">
                         <li>Гатчинский район</li>
-                        <li><a href="/projects.htm" title="">Индивидуальные коттеджи</a></li>
+                        <li><a   title="">Индивидуальные коттеджи</a></li>
                     </ul>
                     <ul class="m02">
                         <li>Гатчинский район</li>
-                        <li><a href="/projects.htm" title="">Индивидуальные коттеджи</a></li>
-                        <li><a href="/projects-pokrovskie-gorki.htm" title="">Таунхаусы</a></li>
-                        <li><a href="/land.htm#pokr" title="">Земельные участки</a></li>
+                        <li><a   title="">Индивидуальные коттеджи</a></li>
+                        <li><a   title="">Таунхаусы</a></li>
+                        <li><a   title="">Земельные участки</a></li>
                     </ul>
                     <ul class="m03">
                         <li>Всеволожский район</li>
-                        <li><a href="/projects.htm" title="">Индивидуальные коттеджи</a></li>
-                        <li><a href="/projects-pokrovskie-gorki.htm" title="">Таунхаусы</a></li>
-                        <li><a href="/land.htm#ber" title="">Земельные участки</a></li>
+                        <li><a  title="">Индивидуальные коттеджи</a></li>
+                        <li><a   title="">Таунхаусы</a></li>
+                        <li><a   title="">Земельные участки</a></li>
                     </ul>
                     <ul class="last m04">
                         <li>Гатчинский район</li>
-                        <li><a href="/projects-pokrovskie-gorki.htm" title="">Таунхаусы</a></li>
-                        <li><a href="/projects-pokrovskie-gorki.htm#kv" title=""> Квартиры</a></li>
+                        <li><a  title="">Таунхаусы</a></li>
+                        <li><a   title=""> Квартиры</a></li>
                     </ul>
                 </div>
                 <div class="text">
