@@ -160,15 +160,15 @@ else if ((substr_count($_SERVER['REQUEST_URI'], 'adwords')>0)&&($_COOKIE['ads']!
         <div class="messege-inner_ clearfix">
 
             <h3><a href="/projects-pokrovskie-gorki.htm#kv" title="">Квартиры за 980 тыс.р.*</a></h3>
-            <p>Только в ноябре <b>отделка в подарок</b>!<br />*при 100% оплате</p>
+            <p>Только в ноябре <b style="color:#C33;font-size:16px;">отделка в подарок</b>!<br /><br /><span style="font-size:11px">*при 100% оплате</span></p>
         </div>
     </div>
 
     <div class="contacts messege_">
         <div class="messege-inner clearfix">
-            <a href="http://snvproject.ru/i/big_houses/presto-big.jpg" rel="popup" title=""> <img src="http://snvproject.ru/i/big_houses/presto-big.jpg" width="100" style="float:left;padding-right: 10px;"  alt="" title="" /> </a>
+            <a href="http://snvproject.ru/images/presto_main.jpg" rel="popup" title=""> <img src="http://snvproject.ru/images/presto_main.jpg" width="100" style="float:left;padding-right: 10px;"  alt="" title="" /> </a>
            <div style="margin-right:10px;"> <h3 style="margin-left:20px"><a href="/cottage-presto.htm"   title="">  Готовый дом 136 м2</a></h3>  </div>
-            <p style="line-height:20px;">+коммуникации<br /> +участок 10,5 соток <br />за <b>4,893 млн.р.*</b><br /><br />*при 100% оплате</p>
+            <p style="line-height:20px;">+коммуникации<br /> +участок 10,5 соток <br />за <b style="color:#C33;font-size:16px;">4,893 млн.р.*</b><br /><br /><span style="font-size:11px;">*при 100% оплате</span</p>
         </div>
     </div>
     <div class="wrapper">
@@ -190,9 +190,9 @@ else if ((substr_count($_SERVER['REQUEST_URI'], 'adwords')>0)&&($_COOKIE['ads']!
                             <li class="m01"><a href="#" title="">«Горки-10»</a>
                                 <ul class="third-menu <? if(strstr($_SERVER['REQUEST_URI'], 'plan.htm')!='') echo 'ax';
                                     else if (strstr($_SERVER['REQUEST_URI'], 'area.htm')!='')    echo 'ax';
-                                    else if (strstr($_SERVER['REQUEST_URI'], 'projects.htm')!='')    echo 'ax';
 
-                                    else if (strstr($_SERVER['REQUEST_URI'], 'serve.htm')!='')    echo 'ax';
+
+                                    else if (strstr($_SERVER['REQUEST_URI'], 'serv.htm')!='')    echo 'ax';
 
                                     else if (strstr($_SERVER['REQUEST_URI'], 'photo.htm')!='')           echo 'ax';
                                     else if (strstr($_SERVER['REQUEST_URI'], 'plan.htm')!='')                    echo 'ax';

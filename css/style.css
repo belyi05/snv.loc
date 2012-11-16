@@ -131,7 +131,7 @@ a:focus, button:focus {
     font-weight: 700;
     font-style: italic;
     line-height: .8;
-    padding: 0 0 6px
+    padding: 5px 0 6px
 }
 
 .contacts-inner .tel span {
@@ -161,7 +161,7 @@ a:focus, button:focus {
 }
 
 .messege {
-    top: 227px
+    top: 220px
 }
 
 
@@ -396,7 +396,7 @@ a.logo {
 .links ul li a {
     font-family: 'pt_sans_narrowregular';
     font-size: 16px;
-   /* text-transform: uppercase;*/
+    /* text-transform: uppercase;*/
     color: #a9414b
 }
 
@@ -435,10 +435,19 @@ a.logo {
     font-weight: 700;
     font-style: italic;
     border-bottom: 1px solid #8b0318;
+    display: inline-block;
     color: #b8032e;
-    padding: 0 0 2px
+    padding: 10px 0 0 0;
 }
 
+table.info{
+    border-bottom: none;
+}
+
+table.info td
+{
+    padding-left: 20px;
+}
 .text h3 {
     font-size: 17px;
     font-weight: 400;
@@ -875,6 +884,8 @@ a.zakaz {
     margin-left: 20px;
     float:left;
     text-align: center;
+    margin-bottom: 10px;
+    margin-top: -20px;
 }
 
 .name-page {
@@ -1399,22 +1410,22 @@ ul.mounth_nav li span, ul.mounth_nav li span p {
     background: url(/i/galochka.png) no-repeat;
     padding-left: 40px
 }
- /*
+/*
 ul.akcii_ {
-    padding-left: 50px
+padding-left: 50px
 }
 
 ul.akcii_ li {
-    background: url(/i/galochka.png) no-repeat;
-    padding-left: 40px;
-    font: 18px Verdana;
-    line-height: 1.5
+background: url(/i/galochka.png) no-repeat;
+padding-left: 40px;
+font: 18px Verdana;
+line-height: 1.5
 }
 
 ul.akcii_ li a {
-    color: #a40303
+color: #a40303
 }
-        */
+*/
 .xtext {
     margin: 20px 0
 }
@@ -1437,32 +1448,43 @@ ul.akcii_ li a {
     padding: 0;
     margin: 0
 }
-  /*
+/*
 ul.text
 {
-    padding: 10px;background: #eeeeee;
+padding: 10px;background: #eeeeee;
 }
 
 
 .text ul li, .text ol li, .main_t ol li {
-    list-style: disc;
+list-style: disc;
+margin-left: 20px;
+margin-top: 4px;
+margin-bottom: 4px;
+}           */
+
+.text ul li, .text ol li  {
+    font: 14px Verdana;
+    line-height: 1.5;
     margin-left: 20px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+     
+
 }
 
-.text p, .text ul li, .text ol li, .main_t p {
-    font: 15px Arial;
-    line-height: 1.5;
+.text ul li{
+    list-style-type: disc;}
+.text ol li{
+    list-style-type: decimal;
 }
 
 .text ul, .text ol, .main_t ol {
-    padding: 10px 0 10px 20px;
-    background: #F3F2F2;
-}           */
+padding: 10px 0 10px 20px;
+background: #F3F2F2;
+}
 
 .text p {
-  /*  padding: 5px 0 16px 5px;*/
+      padding: 10px 0;
+    font: 14px Verdana;
+    line-height: 1.5;
 }
 
 
