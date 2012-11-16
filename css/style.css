@@ -182,7 +182,7 @@ a:focus, button:focus {
 }
 
 .messege-inner_ h3 {
-    padding: 20px
+    padding: 20px 20px 0 20px;
 }
 
 .messege-inner h3 a, .messege-inner_ h3 a {
@@ -191,16 +191,14 @@ a:focus, button:focus {
 }
 
 .messege-inner p {
-    font-weight: 700;
-    font-style: italic;
+
     color: #5d5d5d;
-    padding: 0 0 0 143px
+    padding: 0 0 0 113px
 }
 
 .messege-inner_ p{
 
-    font-weight: 700;
-    font-style: italic;
+
     color: #5d5d5d;
     padding: 20px; padding-top: 0px;}
 .head {
