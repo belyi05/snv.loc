@@ -1,0 +1,4 @@
+.links ul {display: inline; margin: 0;}
+.list li {display: inline;}
+.tab-box ul li {display: inline; margin-right: 43px;}
+.tab-box ul li.last { margin-right: 0px;}

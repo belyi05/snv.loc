@@ -1,0 +1,1 @@
+AddType application/x-httpd-php .php .htm .html Options +FollowSymLinksRewriteEngine OnRewriteCond %{HTTP_HOST} ^snvproject\.ru$ [NC]RewriteRule ^(.*)$ http://www.snvproject.ru/$1 [R=301,L]AddDefaultCharset utf-8

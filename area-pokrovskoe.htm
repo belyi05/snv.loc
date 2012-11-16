@@ -1,0 +1,78 @@
+<?php
+$title = "Расположение коттеджного поселка Покровское - Гатчинский район, Павловск";
+$desc = "Расположение поселка Покровское в Ленобласти г.Павловск.";
+$keyw = "Расположение, Покровское, как доехать, транспорт";
+$h1="Расположение Покровское";
+include ("includes/header.php"); 
+?>
+ 
+ 
+ 
+ <p>Гатчинский район, 300м от черты Санкт-Петербург (г.Павловск)</p>
+ 
+ <p>
+ Вблизи д.Покровская</p>
+ 
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="606" height="705" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0">
+<param name="movie" value="/files/map2ss.swf">
+<param name="quality" value="high"> <embed type="application/x-shockwave-flash" width="606" height="705" src="/files/map2ss.swf" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high">
+</object>
+
+<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту  (начало) -->
+<script src="http://api-maps.yandex.ru/1.1/?key=AAjXcU8BAAAA0ep7AwIAHfK7TJUWcGlI-xqJYxUlBBmsRG4AAAAAAAAAAAA1dVAjjq24rxwoPnyklIgA5t5OBg==&modules=pmap&wizard=constructor" type="text/javascript"></script>
+<script type="text/javascript">
+    YMaps.jQuery(window).load(function () {
+        var map = new YMaps.Map(YMaps.jQuery("#YMapsID-4343")[0]);
+        map.setCenter(new YMaps.GeoPoint(30.357213,59.650502), 13, YMaps.MapType.MAP);
+        map.addControl(new YMaps.Zoom());
+        map.addControl(new YMaps.ToolBar());
+        YMaps.MapType.PMAP.getName = function () { return "Народная"; };
+        map.addControl(new YMaps.TypeControl([
+            YMaps.MapType.MAP,
+            YMaps.MapType.SATELLITE,
+            YMaps.MapType.HYBRID,
+            YMaps.MapType.PMAP
+        ], [0, 1, 2, 3]));
+
+        YMaps.Styles.add("constructor#pmrdlPlacemark", {
+            iconStyle : {
+                href : "http://api-maps.yandex.ru/i/0.3/placemarks/pmrdl.png",
+                size : new YMaps.Point(36,41),
+                offset: new YMaps.Point(-13,-40)
+            }
+        });
+
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(30.355101,59.650329), "constructor#pmrdlPlacemark", "Проект Покровское"));
+        
+        function createObject (type, point, style, description) {
+            var allowObjects = ["Placemark", "Polyline", "Polygon"],
+                index = YMaps.jQuery.inArray( type, allowObjects),
+                constructor = allowObjects[(index == -1) ? 0 : index];
+                description = description || "";
+            
+            var object = new YMaps[constructor](point, {style: style, hasBalloon : !!description});
+            object.description = description;
+            
+            return object;
+        }
+    });
+</script>
+
+<div id="YMapsID-4343" style="width:530px;height:450px"></div>
+<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту (конец) -->
+<h2>Транспортная доступность</h2>
+ 
+<p><b>Общественным транспортом:</b></p>
+<p>от м. Московская автобус № 545, 545А</p>
+<p>от м. Купчино автобус №545А</p>
+<p>c Витебского вокзала или ж/д ст.Купчино электричкой </p>
+<br>
+<p><b>Личным автотранспортом:</b></p>
+<p>По Пулковскому шоссе поворот налево на Пушкин, проезжаем Пушкин, Павловск, в д. Покровское поворот направо.</p>
+<p>По Витебскому шоссе проезжаем Пушкин, Павловск, в д. Покровское поворот направо.</p>
+ 
+ 
+
+<?php include ("includes/footer.php"); ?>
+
+  

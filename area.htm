@@ -1,0 +1,76 @@
+<?php
+$title = "Расположение коттеджного поселка Горки-10 - Гатчинский район Ленинградской области";
+$desc = "Расположение Горки-10";
+$keyw = "Расположение, как доехать, добраться, Старое Мозино";
+$h1="Расположение";
+include ("includes/header.php"); 
+?>
+ <?php include ("includes/place.php"); ?>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="528" height="539" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0">
+    <param name="movie" value="/files/area-2.swf">
+    <param name="quality" value="high"> <embed type="application/x-shockwave-flash" width="528" height="539" src="/files/area-2.swf" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high">
+</object>
+<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту  (начало) -->
+<script src="http://api-maps.yandex.ru/1.1/?key=AAjXcU8BAAAA0ep7AwIAHfK7TJUWcGlI-xqJYxUlBBmsRG4AAAAAAAAAAAA1dVAjjq24rxwoPnyklIgA5t5OBg==&modules=pmap&wizard=constructor" type="text/javascript"></script>
+<script type="text/javascript">
+    YMaps.jQuery(window).load(function () {
+        var map = new YMaps.Map(YMaps.jQuery("#YMapsID-313")[0]);
+        map.setCenter(new YMaps.GeoPoint(30.222578,59.615498), 12, YMaps.MapType.MAP);
+        map.addControl(new YMaps.Zoom());
+        map.addControl(new YMaps.ToolBar());
+        YMaps.MapType.PMAP.getName = function () { return "Народная"; };
+        map.addControl(new YMaps.TypeControl([
+            YMaps.MapType.MAP,
+            YMaps.MapType.SATELLITE,
+            YMaps.MapType.HYBRID,
+            YMaps.MapType.PMAP
+        ], [0, 1, 2, 3]));
+
+        YMaps.Styles.add("constructor#pmrdlPlacemark", {
+            iconStyle : {
+                href : "http://api-maps.yandex.ru/i/0.3/placemarks/pmrdl.png",
+                size : new YMaps.Point(36,41),
+                offset: new YMaps.Point(-13,-40)
+            }
+        });
+
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(30.221462,59.613628), "constructor#pmrdlPlacemark", "Горки-10"));
+        
+        function createObject (type, point, style, description) {
+            var allowObjects = ["Placemark", "Polyline", "Polygon"],
+                index = YMaps.jQuery.inArray( type, allowObjects),
+                constructor = allowObjects[(index == -1) ? 0 : index];
+                description = description || "";
+            
+            var object = new YMaps[constructor](point, {style: style, hasBalloon : !!description});
+            object.description = description;
+            
+            return object;
+        }
+    });
+</script>
+
+<div id="YMapsID-313" style="width:528px;height:360px"></div>
+<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту (конец) -->
+
+<p>Проект ГОРКИ-10 расположен в одном из красивейших мест Гатчинского района Ленинградской области, у реки Ижора.</p>
+<p>Вам понадобится всего лишь 20 минут, чтобы очутиться в собственном комфортном и уютном загородном доме с камином и большими окнами, ведь коттеджный поселок расположен всего в 20 км от Санкт-Петербурга. Новое шестиполосное Киевское шоссе обеспечивает быстрое и комфортное передвижение без пробок.</p>
+<br>
+
+ 
+<h2>Транспортная доступность</h2>
+ 
+<p><b>Общественным транспортом:</b></p>
+<p>Балтийский вокзал до ж.д. станции Старое Мозино</p>
+<p>Гатчина: автобус №527А, 529</p>
+<br>
+<p><b>Личным автотранспортом:</b></p>
+<p>Киевское шоссе, М20, до поворота на Старое  Мозино, далее на Горки.</p>
+<p>Санкт-Петербург – 20 км.</p>
+<p>Гатчина – 7 км.</p>
+ 
+
+<?php include ("includes/footer.php"); ?>
+
+  

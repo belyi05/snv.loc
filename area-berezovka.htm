@@ -1,0 +1,41 @@
+<?php
+$title = "Расположение Березовка";
+$desc = "Расположение Березовка";
+$keyw = "Расположение Березовка";
+$h1="Расположение Березовка";
+include ("includes/header.php"); 
+?>
+ 
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="700" height="350" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0">
+<param name="movie" value="/files/map3s.swf">
+<param name="quality" value="high"> <embed type="application/x-shockwave-flash" width="700" height="350" src="/files/map3s.swf" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high">
+</object>
+
+<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту (начало) -->
+<div id="ymaps-map-id_134158391843311623560" style="width: 600px; height: 450px;"></div>
+<script type="text/javascript">function fid_134158391843311623560(ymaps) {var map = new ymaps.Map("ymaps-map-id_134158391843311623560", {center: [30.814906867959483, 59.951115875709355], zoom: 11, type: "yandex#map"});map.controls.add("zoomControl").add("mapTools").add(new ymaps.control.TypeSelector(["yandex#map", "yandex#satellite", "yandex#hybrid", "yandex#publicMap"]));map.geoObjects.add(new ymaps.Placemark([30.813064368481683, 59.94078479990143], {balloonContent: "Березовка"}, {preset: "twirl#redDotIcon"}));};</script>
+<script type="text/javascript" src="http://api-maps.yandex.ru/2.0/?coordorder=longlat&load=package.full&wizard=constructor&lang=ru-RU&onload=fid_134158391843311623560"></script>
+<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту (конец) -->
+<p>&nbsp;</p>
+ <p>По Мурманскому шоссе, удаление поворотак к "Березовке" от Кольцевой Автодороги (КАД) составляет 17 км.</p>
+ 
+ 
+ 
+ <p>С юга от участка на расстоянии 3 км от его границы проходит Мурманское шоссе. Удаление поворота к «Березовке» от Кольцевой Автодороги (КАД) составляет 17 км. При движении из Санкт-Петербурга участок располагается с левой стороны, соответственно, есть необходимость совершать левый поворот. В настоящий момент, несмотря на отсутствие светофора, поворот трудностей не вызывает. Строящаяся дорога от Мурманского ш. Будет достроена в 2013 году.</p>
+ 
+ <p>
+
+По Колтушскому шоссе, далее по Воейковскому шоссе, далее поворот направо.</p>
+
+<p>
+ 
+Вблизи участка расположены несколько станций Ладожского направления пригородных электропоездов: Мельничный ручей, Мяглово, Кирпичный завод, Радченко, Дунай и Черная речка.</p>
+
+<!--<img src="http://clip2net.com/clip/m28468/1332501650-clip-37kb.jpg" alt="1332501650-clip-37kb"/>-->
+
+ 
+
+<?php include ("includes/footer.php"); ?>
+
+  

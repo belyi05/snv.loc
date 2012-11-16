@@ -1,0 +1,1 @@
+<?php $INFO['root_path'] = 'newspaper';$INFO['number'] = '3';$INFO['dir'] = 'number';$INFO['home_title'] = 'Вернуться на главную страницу';$INFO['home_url'] = 'http://snvproject.ru';

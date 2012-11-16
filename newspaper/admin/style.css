@@ -1,0 +1,18 @@
+/** 
+ * table
+ */
+table {
+  width: 100%;
+}
+
+table th {
+  background-color: #AAA;
+  border: 1px solid #000;
+}
+table td {
+  border: 1px solid #000;
+}
+
+table tr.odd {background-color: #EEE;}
+table tr.even {background-color: #CCC;}
+table p {margin: 3px}

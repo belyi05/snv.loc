@@ -1,0 +1,35 @@
+/* CSS Document */
+ 
+
+table.projects { border-collapse:collapse;  }
+table.projects tr {}
+table.projects tr td.center { padding-left:5px; padding-right:5px; }
+table.projects tr td div { margin:0px auto; }
+
+/*table.projects tr td p  { color:#f4c6c7; font-size:11px; border:0px;}*/
+table.projects tr td p.n { padding-left:10px; color:#e67374; }
+table.projects tr td div.cott { border:0px; padding-left:10px; padding-right:10px; margin-top:10px; width:auto; height:auto;  }
+
+
+ .house_photo img{max-width:680px;}
+
+ 
+
+/**************************************/
+table.projects tr td a.more{text-decoration:none; border-bottom:1px dashed #FF9900;}
+table.projects tr td.moreinfo div{width:700px; height:auto;}
+table.projects tr td.moreinfo .plan1, table.projects tr td.moreinfo .plan2{border:none !important; display:inline-block; *display:inline; *zoom:1; width:auto; vertical-align:top;}
+table.projects tr td.moreinfo .plan1 img, table.projects tr td.moreinfo .plan2 img{height:320px;}
+table.projects tr td.moreinfo .plan1{ margin: 0 2% 0 10px;}
+table.projects tr td.moreinfo  > div{display:none;}
+#main_text{width:100%; border:none !important; height:auto;}
+table.projects tr td.moreinfo p{padding: 0 10px;}
+table.projects tr td  { width:20%; }
+table.projects tr td div { width:160px; height:140px; border:5px solid #6b0607; }
+table.projects tr td .stoimost{ color:#737373; font-size:13px; font-weight:bold;}
+table.projects tr td .stoimost span.price_new{text-decoration: line-through; font-weight:normal;} 
+table.projects tr td .arrow_dn, table.projects tr td .arrow_up{ width:13px; height:14px; display:inline-block; *display:inline; *zoom:1; margin: 0 0 0 5px; vertical-align: middle;}
+table.projects tr td .arrow_dn{background:url('/i/arr_dn.jpg') top left no-repeat;}
+table.projects tr td .arrow_up{background:url('/i/arr_up.jpg') top left no-repeat;}
+.house_photo{margin: 20px 0 10px 0;}
+ 

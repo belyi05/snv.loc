@@ -1,0 +1,25 @@
+.timer {
+  width: 100%;
+  margin: 10px 0px;
+  border: 1px dashed #F00;
+}
+.timer-wrapper .timer  {
+ /* width: 990px;*/
+  position: relative;
+  top: -56px;
+}
+
+.timer-wrapper {
+  width: 100%;
+}
+
+.lb-timer,
+.lb-timer-text {
+  font-weight: 600;
+  font-size: x-large;
+  color: #000;
+}
+.lb-timer {
+  font-size: xx-large;
+  color: #F00;
+}

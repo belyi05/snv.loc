@@ -1,0 +1,180 @@
+* {padding: 0; margin :0;}
+html {background: url(../images/html-bg.png); height: 100%;}
+body {font: 15px Arial, Helvetica, sans-serif; background: url(../images/body-bg.jpg) center top no-repeat; color: #433a3c; height: auto !important; height: 100%; min-height: 100%; position: relative;}
+img, table {border: none;}
+table tr td {border-collapse: collapse; vertical-align: middle;}
+li {list-style: none;}
+.clear {clear: both; height: 0; text-indent: -9000px; overflow: hidden;}
+a:link, a:visited {text-decoration: underline;}
+a:hover, a:active {text-decoration: none;}
+a:focus {outline: none;}
+button:focus {outline: none;}
+/*	clearfix			*/
+.clearfix{_height: 1%; _overflow: visible;}
+.clearfix:after{content: "."; display: block; height: 0px; clear: both; visibility: hidden; line-height:0px; font-size:0px;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/*	clearfix			*/
+
+
+
+
+@font-face {
+    font-family: 'pt_sans_narrowregular';
+    src: url('../fonts/ptn57f-webfont.eot');
+    src: url('../fonts/ptn57f-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ptn57f-webfont.woff') format('woff'),
+         url('../fonts/ptn57f-webfont.ttf') format('truetype'),
+         url('../fonts/ptn57f-webfont.svg#pt_sans_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+.page {padding-bottom: 69px;}
+.container {background: url(../images/container-bg.png) center bottom no-repeat; height: 190px;}
+.contacts {background: #fff; position: fixed; width: 348px; top: 77px; right: -11px; z-index: 1000;
+-webkit-border-radius: 11px;
+-moz-border-radius: 11px;
+border-radius: 11px;
+-moz-box-shadow: 5px 5px 5px #173b49;
+-webkit-box-shadow: 5px 5px 5px #173b49;
+box-shadow: 5px 5px 5px #173b49;
+behavior: url(js/PIE.php);}
+.contacts-inner {text-align: right; padding: 14px 28px 11px 0; color: #cc3333;}
+.contacts-inner .work {font-size: 16px; font-weight: bold; font-style: italic; color: #5d5d5d; line-height: 1.1;}
+.contacts-inner .work span {color: #cc3333;}
+.contacts-inner .tel {font-size: 48px; font-weight: bold; font-style: italic; line-height: 0.8; padding: 0 0 6px 0;}
+.contacts-inner .tel span {font-size: 30px; position: relative; top: -11px;}
+.contacts-inner .zakaz {font-size: 24px; color: #cc3333;}
+.contacts-inner .reklama {font-size: 16px; font-weight: bold; font-style: italic; color: #5d5d5d; padding: 10px 0 0 0;}
+.contacts-inner .tel-second {font-size: 30px; font-weight: bold; font-style: italic; line-height: 0.9;}
+.messege {top: 297px;}
+.messege-inner {padding: 13px 0 16px 24px;}
+.messege-inner img {float: left; margin: 10px 0 0 0;}
+.messege-inner h3 {padding: 0 0 7px 143px;}
+.messege-inner h3 a {font-size: 18px; color: #cc3333;}
+.messege-inner p {font-weight: bold; font-style: italic; color: #5d5d5d; padding: 0 0 0 143px;}
+.head {position: relative; height: 244px; z-index: 9;}
+.polosa {background: url(../images/polosa.gif) center top no-repeat; height: 11px; width: 100%; position: absolute; left: 0; bottom: -354px;}
+.top-bar {background: url(../images/polosa.gif) center bottom no-repeat; height: 11px; position: absolute; left: 0; top: 0; width: 100%;}
+.top-inner {width: 1000px; margin: 0 auto; position: relative; position: relative;}
+a.logo {background: url(../images/logo.png) no-repeat; width: 335px; height: 164px; position: absolute; left: 336px; top: -25px; text-decoration: none;}
+.logo span {display: block; color: #fff; font-size: 14px; padding: 32px 0 0 40px;}
+
+
+#naw img{cursor: pointer;}
+.content {background: #fff; width: 1000px; margin: 0 auto; min-height: 1000px; position: relative; z-index: 10;}
+.menu {background: url(../images/menu-bg.png) repeat-x; position: relative;}
+.menu li {background: url(../images/menu-li-bg.png) right bottom no-repeat; float: left; height: 50px; padding: 0 1px 0 0;}
+.menu li.last {background: none; padding: 0;}
+.menu li a {font-family: 'pt_sans_narrowregular'; font-size: 17px; text-transform: uppercase; color: #fff; text-decoration: none; line-height: 50px; padding: 0 25px; position: relative; z-index: 10;}
+.menu li a i {background: url(../images/arrow-bg.png) no-repeat; width: 20px; height: 10px; position: absolute; bottom: -23px; left: 50%; margin-left: -10px; display: none;}
+.menu li:hover a i,.menu li.curent a i {display: block;}
+.menu li.curent .second-menu,.menu li:hover second-menu { visibility: visible!important; display: block!important;}
+.menu li .second-menu {background: url(../images/menu-div-bg.png) repeat-x; position: absolute; left: 0; top: 50px; width: 100%; z-index: 9;}
+.menu li .second-menu li a {font-size: 22px;
+   }
+.menu li .second-menu li { text-align: center;}
+
+.menu li .second-menu li .third-menu { position: absolute; left: 0; top: 50px; width: 100%;}
+.menu li .second-menu li .third-menu li {height: 54px; background: none; padding: 0;}
+.menu li .second-menu li .third-menu li a {font-size: 17px; text-decoration: underline; padding: 0 36px;}
+.menu li .second-menu li .third-menu li a:hover{
+    text-decoration: none;}
+
+
+.menu li .second-menu li .third-menu li span {color: #fff; font-size: 17px;}
+
+.menu li .second-menu li .third-menu .active{visibility: visible!important; display: block!important;}
+.menu-inner-page li.curent .second-menu li .third-menu,.menu-inner-page li:hover .second-menu li .third-menu { visibility: visible!important; display: block!important;}
+.links-second {margin: 104px 0 0 0;}
+.links {background: #fbead1; margin: 104px 0 0 0;}
+.links ul {display: inline-block; vertical-align: top; border-right: 1px solid #fdf5e8; width: 249px; margin: 0 -4px 0 0; padding: 15px 0 0 0; min-height: 100px;} 
+.links ul.last {border: 0;}
+.links ul li {text-align: center; padding: 0 0 3px 0;}
+.links ul li a {font-family: 'pt_sans_narrowregular'; font-size: 14px; text-transform: uppercase; color: #a9414b;}
+.links ul li a:hover{
+    text-decoration: none;}
+.text {padding: 13px 33px 50px 29px;}
+.patway {color: #676061; padding: 0 0 16px 0;}
+.patway li {display: inline; font-size: 11px;}
+.patway li i {font-size: 7px; margin: 0 2px 0 5px;}
+.patway li a {color: #676061;}
+.text h2 {font-size: 22px; font-weight: bold; font-style: italic; border-bottom: 1px solid #8b0318; color: #b8032e; padding: 0 0 2px 0;}
+.text h3 {font-size: 12px; font-weight: normal; color: #b8032e; padding: 8px 0 0 0;}
+.list-outer {border-bottom: 1px solid #8b0318;}
+.list {padding: 12px 0 11px 0;}
+.list li {display: inline-block; vertical-align: top; cursor: pointer;}
+.list li a {color: #248da1; font-size: 11px; line-height: 24px; padding: 0 0 0 13px;}
+.list li:hover,.list li.current {background: #890318;}
+.list li:hover a,.list li.current a {color: #fff; text-decoration: none;}
+.list li:hover a span,.list li.current a span {border-right: 1px solid #890318;}
+.list li a span {border-right: 1px solid #6f6f6f; padding: 0 16px 0 0;}
+.list li.last a {padding-right: 16px;}
+.tab-box {display: none;}
+.visible {display: block;}
+.tab-box ul {padding: 20px 0 0 0;}
+.tab-box ul li {display: inline-block; vertical-align: top; width: 201px; margin: 0 39px 45px 0;}
+.tab-box ul li.last {margin-right: -4px;}
+.tab-box ul li h3 {text-align: center; color: #027c93; font-size: 18px; font-weight: bold; padding: 0 0 11px 0;}
+.tab-box ul li a img {display: block;}
+.tab-box ul li .pic {position: relative; height: 238px;}
+.area {background: #027c93; position: absolute; right: 0; top: 11px; width: 64px; display: block; padding: 0 0 0 10px;
+font-family: 'pt_sans_narrowregular'; font-size: 18px; color: #fff;}
+.tab-box ul li .price {background: #8b031a; height: 32px; width: 100%; position: absolute; left: 0; bottom: 0px; text-align: center; padding: 5px 0 0 0;
+font-size: 22px; font-weight: bold; color: #fff;}
+.tab-box ul li .price i {font-style: normal; font-size: 11px; position: relative; top: -8px;}
+.tab-box ul li .price b {font-family: 'pt_sans_narrowregular'; font-size: 11px; font-weight: normal; position: relative; top: -4px; padding: 0 5px 0 0;}
+.tab-box ul li .old {color: #a64151; font-size: 14px; text-align: center; text-decoration: line-through; padding: 7px 0 9px 0;}
+.cena {background: #e6f5ff; line-height: 32px; text-align: center; font-family: 'pt_sans_narrowregular'; font-size: 18px; color: #a64151;}
+
+
+/* --- Inner page --- */
+.text h1 {color: #890318; font-size: 30px; font-weight: bold; border-bottom: 1px solid #8b0318; padding: 0 0 3px 0;}
+.gallery {padding: 23px 0 0 0;}
+.big {float: left; width: 469px; position: relative;}
+.more-photo {width: 438px; float: right;}
+.left-more {float: left; width: 200px; color: #840317;}
+.left-more .pr {font-size: 30px; font-weight: bold; line-height: 1.0;}
+.left-more .pr i {font-style: normal; font-size: 11px; position: relative; top: -8px;}
+.left-more .oldder {font-size: 14px; text-decoration: line-through; padding: 18px 0 9px 0;}
+.right-more {float: right; width: 200px; text-align: right;}
+.right-more .area {position: static; width: 124px; text-align: center; padding: 0; font-size: 30px; line-height: 36px; float: right;}
+.right-more .cena {clear: both; background: none; text-align: right; margin: 4px 0 0 0;}
+.small-photo {position: relative; padding: 0 45px 0 74px; margin: 12px 0 0 0;}
+.next-a {background: url(../images/next-bg.png) no-repeat; width: 15px; height: 30px; border: 0; position: absolute; right: 0; top: 96px; cursor: pointer;}
+.prew-a {background:url(../images/prew-bg.png) no-repeat; width: 16px; height: 30px; border: 0; position: absolute; left: 0; top: 96px; cursor: pointer;}
+.slid {width: 100%!important; overflow: hidden!important;}
+.slid ul li {float: left; list-style: none; margin: 0 38px 0 0;}
+.slid ul li h4 {text-align: center; width: 127px; color: #027c93; font-weight: normal; font-family: 'pt_sans_narrowregular'; font-size: 18px; padding: 0 0 12px 0;}
+.slid ul li a {position: relative;}
+.info {padding: 44px 0 0 0; border-bottom: 1px solid #8b0318; margin: 0 0 14px 0;}
+.info p {font-family: 'pt_sans_narrowregular'; padding: 0 0 17px 0;}
+.info dl {padding: 9px 0 19px 0;}
+.info dl dt {font-family: 'pt_sans_narrowregular'; color: #dc342b; font-size: 14px; padding: 0 0 23px 0;}
+.info dl dd {background: url(../images/dd-bg.png) left 5px no-repeat; padding: 0 0 18px 25px; font-size: 11px;}
+
+
+
+/* footer */
+.footer {background: url(../images/polosa.gif) center bottom no-repeat; padding: 0 0 12px 0; height: 65px; position: absolute; bottom: 0; width: 100%;}
+.menu li .m01, .menu li .m01 .third-menu{background:red;}
+.menu li .m02, .menu li .m02 .third-menu{background:#f9ea37;}
+.menu li .m02>a, .menu li .m02 .third-menu a{color:red !important;}
+.menu li .m03, .menu li .m03 .third-menu{background:#7869a4;}
+.menu li .m04, .menu li .m04 .third-menu{background:#02a4bd;}
+
+.links .m01, .links .m01 a{background:red;color: white;}
+.links .m02, .links .m02 a{background:#f9ea37;color: red;}
+.links .m02>a, .links .m02 a{color:red !important; }
+.links .m03, .links .m03 a{background:#7869a4;color: white;}
+.links .m04, .links .m04 a{background:#02a4bd;color: white;}
+.second-menu>li{width:249px;}

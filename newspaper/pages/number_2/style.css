@@ -1,0 +1,23 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	color: #FFF;
+}
+
+#container {
+	width: 990px;
+	height: 100%;
+}
+
+#newspaper {
+	width: 990px;
+	height: 1393px;	
+}
+
+.page-1 {
+  background: url('images/page-1.jpg') no-repeat center top;
+}
+
+.page-2 {
+  background: url('images/page-2.jpg') no-repeat center top;
+}

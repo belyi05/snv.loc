@@ -1,0 +1,167 @@
+/**
+ * newspaper navigate style
+ *
+ * by Lastbyte 
+ * last modified 03/05/2012 - 18:00
+ */ 
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+} 
+ 
+h1 {
+  color: #cc1122;
+  border-bottom: 3px solid #cc1122;
+}
+
+.clearfix::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+ 
+ /**
+  * structure
+  */
+#newspaper-navigate-container {
+  width: 96%;
+  position: fixed;
+  bottom: 0px;
+  margin: 10px;
+}
+
+#newspaper-navigate {
+  width: 500px;
+  height: 36px;
+  position: relative;
+}
+
+#newspaper-navigate-content {
+  width: 400px;
+  height: 40px;
+  background: url('images/bg.png');
+}
+
+.newspaper-navigate-arr {
+  width: 30px;
+  height: 40px;
+  position: absolute;
+  font-size: 24px;
+  line-height: 1.8em;
+  margin: 0px 10px;
+}
+.newspaper-navigate-arr.prev {
+  left: 1px;
+  background: url('images/prev.png') no-repeat;
+}
+.newspaper-navigate-arr.next {
+  right: 1px;
+  background: url('images/next.png') no-repeat;
+}
+
+.newspaper-navigate-action-link,
+.newspaper-navigate-number-link {
+  display: inline;
+  color: #FFF;
+  margin: 0px 3.5px
+}
+
+/**
+ * link
+ */
+a.newspaper-navigate-action-link,
+a.newspaper-navigate-number-link,
+a.newspaper-navigate-link {
+  color: #000;
+  text-decoration: none;
+}
+a.newspaper-navigate-action-link {text-decoration: underline;}
+
+a.newspaper-navigate-action-link:hover,
+a.newspaper-navigate-number-link:hover,
+a.newspaper-navigate-link:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/**
+ * form
+ */
+.form-element {
+  margin: 10px 0px;
+  padding: 0px;
+}
+.form-element input {
+  margin: 0px;
+  padding: 2px;
+}
+
+.form-element-subscribe input {
+  font-size: 16px;
+}
+
+.form-element p {
+  margin: 0px;
+}
+
+.wrapper-form-element {
+  width: 150px;
+  float: left;
+  color: #EEC669;
+  background: #9C251E;
+  padding: 2px 5px;
+}
+
+.form-element.clearfix input {
+  float: left;
+}
+
+/**
+ * subscibe page
+ */
+#body-wrapper {
+  height: 100%;
+} 
+ 
+#subscribe-wrapper {
+  width: 990px;
+  height: 100%;
+}
+
+#subscribe-wrapper p {
+  margin: 10px 0px;
+  padding: 0px;
+}
+ 
+#subscribe-head {
+  width: 100%;
+  height: 250px;
+  background: url('images/subscribe-header.jpg') no-repeat;
+}
+
+#subscribe-content {
+  width: 990px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  position: relative;
+}
+
+#subscribe-footer {
+  width: 990px;
+  height: 20px;
+  background: url('images/subscribe-bottom.jpg') no-repeat;
+}
+
+.subscribe-info {
+  width: 400px;
+  color: #000;
+  border: 1px dashed #C12;
+}
+
+.subscribe-info li{
+  margin: 2px 5px;
+}
