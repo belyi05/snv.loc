@@ -159,7 +159,7 @@ else if ((substr_count($_SERVER['REQUEST_URI'], 'adwords')>0)&&($_COOKIE['ads']!
     <div class="contacts messege">
         <div class="messege-inner_ clearfix">
 
-            <h3><a href="http://snv.loc/projects-pokrovskie-gorki.htm#kv" title="">Квартиры за 980 тыс.р.*</a></h3>
+            <h3><a href="/projects-pokrovskie-gorki.htm#kv" title="">Квартиры за 980 тыс.р.*</a></h3>
             <p>Только в ноябре отделка в подарок!<br />*при 100% оплате</p>
         </div>
     </div>
