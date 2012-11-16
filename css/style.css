@@ -724,8 +724,12 @@ a.logo {
     margin: 0 0 14px
 }
 
-.info p {
-    font-family: 'pt_sans_narrowregular';
+.info p  {
+    padding-top: 10px;
+}
+.info   {
+    font:14px Verdana;
+    line-height: 1.5;
     padding: 0 0 17px
 }
 
@@ -734,7 +738,7 @@ a.logo {
 }
 
 .info dl dt {
-    font-family: 'pt_sans_narrowregular';
+
     color: #dc342b;
     font-size: 14px;
     padding: 0 0 23px
@@ -743,7 +747,7 @@ a.logo {
 .info dl dd {
     background: url(../images/dd-bg.png) left 5px no-repeat;
     padding: 0 0 18px 25px;
-    font-size: 11px
+
 }
 
 .footer {

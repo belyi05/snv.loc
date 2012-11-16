@@ -166,8 +166,8 @@ else if ((substr_count($_SERVER['REQUEST_URI'], 'adwords')>0)&&($_COOKIE['ads']!
 
     <div class="contacts messege_">
         <div class="messege-inner clearfix">
-            <a href="http://snvproject.ru/i/all.jpg" rel="popup" title=""> <img src="uploads/001.jpg" width="115" height="72" alt="" title="" /> </a>
-            <h3><a href="/cottage-adajio.htm"   title="">Готовый дом 136 м2</a></h3>
+            <a href="http://snvproject.ru/i/all.jpg" rel="popup" title=""> <img src="http://snvproject.ru/i/libetto.jpg" width="100"   alt="" title="" /> </a>
+           <div style="float:right;margin-right:10px;"> <h3 style="margin-left:10px"><a href="/cottage-adajio.htm"   title="">  Готовый дом 136 м2</a></h3>  </div>
             <p>+коммуникации+земельный участок 10,5 соток <br />за 4893 млн.р.<br />при 100% оплате</p>
         </div>
     </div>
