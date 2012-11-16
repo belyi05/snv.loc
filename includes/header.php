@@ -168,7 +168,7 @@ else if ((substr_count($_SERVER['REQUEST_URI'], 'adwords')>0)&&($_COOKIE['ads']!
         <div class="messege-inner clearfix">
             <a href="http://snvproject.ru/i/big_houses/presto-big.jpg" rel="popup" title=""> <img src="http://snvproject.ru/i/big_houses/presto-big.jpg" width="100" style="float:left;padding-right: 10px;"  alt="" title="" /> </a>
            <div style="margin-right:10px;"> <h3 style="margin-left:20px"><a href="/cottage-presto.htm"   title="">  Готовый дом 136 м2</a></h3>  </div>
-            <p>+коммуникации+земельный<br /><br /> участок 10,5 соток <br /><br />за <b>4,893 млн.р.*</b><br /><br />*при 100% оплате</p>
+            <p style="line-height:20px;">+коммуникации<br /> +участок 10,5 соток <br />за <b>4,893 млн.р.*</b><br /><br />*при 100% оплате</p>
         </div>
     </div>
     <div class="wrapper">
