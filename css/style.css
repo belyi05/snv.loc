@@ -92,11 +92,10 @@ a:focus, button:focus {
 .contacts {
     background: #fff;
     border: 2px solid #c33;
-    position: fixed;
+    position: relative;
     width: 348px;
-    top: 77px;
-    right: -11px;
-    z-index: 1000;
+
+    min-height: 100px;
     -webkit-border-radius: 11px;
     -moz-border-radius: 11px;
     border-radius: 11px;
@@ -161,12 +160,12 @@ a:focus, button:focus {
 }
 
 .messege {
-    top: 220px
+    top: 220px !important;
 }
 
 
 .messege_ {
-    top: 377px
+    top: 377px !important;
 }
 .messege-inner {
     padding: 6px 0 6px 24px
@@ -1576,3 +1575,8 @@ a.list-news {float: right; color: #027c93; font-size: 11px; text-transform: uppe
 .preww-a {background: none; width: 22px; height: 47px; border: 0; position: absolute; left: 0; top: 120px; cursor: pointer;}
 .video .ne {float: left; width: 201px; text-align: right; padding: 128px 0 0 0;}
 .video .ne a {color: #027c93; font-size: 18px; text-transform: uppercase; font-family: 'pt_sans_narrowregular';}
+
+
+.contacts-outer {position: fixed; top: 77px; right: -11px; z-index: 1000;}
+.contacts-outer .close { position: absolute; left: 10px; bottom: 10px; text-decoration: underline; cursor: pointer; color: #CC3333; font-size: 11px; display: block;}
+.contacts-outer  .close.acttiv { left: -80px; top: 15px;  background: #F00; color: #fff; width: 70px; height: 20px; line-height: 20px; text-align: center;}

@@ -80,4 +80,20 @@ $(document).ready(function() {
 
 
     })
+
+
+    $(".close").click(function(){
+
+        $(this).prevAll(".contacts").toggle("slow");
+
+
+        $(this).toggleClass("acttiv");
+        if($(this).text()!='Закрыть')
+            $(this).text("Закрыть");
+        else
+            $(this).text("Открыть");
+
+    });
+
+
 });

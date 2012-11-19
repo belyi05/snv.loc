@@ -30,7 +30,8 @@ else if ((substr_count($_SERVER['REQUEST_URI'], 'adwords')>0)&&($_COOKIE['ads']!
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 
     <!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="css/ie7.css"><![endif]-->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+
     <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="/js/zvonok.js"></script>
    <script type="text/javascript" src="/js/fancybox.js"></script>
@@ -147,29 +148,37 @@ else if ((substr_count($_SERVER['REQUEST_URI'], 'adwords')>0)&&($_COOKIE['ads']!
 </head>
 <body>
 <div class="page  <? if($_SERVER['REQUEST_URI']=='/') echo 'page-main'; ?>">
+    <div class="contacts-outer">
     <div class="contacts">
         <div class="contacts-inner">
             <p class="work">Отдел продаж <span>с 9 до 21 без вых.</span></p>
             <p class="tel"><span>(812)</span>900-33-10</p>
             <a href="#zv_popup" rel="popup" class="zakaz">Заказать<br> звонок</a>
             <p class="reklama">Реклама/партнерам</p>
-            <p class="tel-second">(812)900-51-10</p>
+            <p class="tel-second">(812)900-51-10</p> <br>  <br>
         </div>
     </div>
-    <div class="contacts messege">
+        <span class="close">Закрыть</span>
+    </div>
+    <div class="contacts-outer messege">
+        <div class="contacts">
         <div class="messege-inner_ clearfix">
 
             <h3><a href="/projects-pokrovskie-gorki.htm#kv" title="">Квартиры за 980 тыс.р.*</a></h3>
             <p>Только в ноябре <b style="color:#C33;font-size:16px;">отделка в подарок</b>!<br /><br /><span style="font-size:11px">*при 100% оплате</span></p>
-        </div>
+            <br> <br> </div>
     </div>
-
-    <div class="contacts messege_">
+        <span class="close">Закрыть</span>
+    </div>
+    <div class="contacts-outer messege_">
+    <div class="contacts">
         <div class="messege-inner clearfix">
             <a href="http://snvproject.ru/images/presto_main.jpg" rel="popup" title=""> <img src="http://snvproject.ru/images/presto_main.jpg" width="100" style="float:left;padding-right: 10px;"  alt="" title="" /> </a>
            <div style="margin-right:10px;"> <h3 style="margin-left:20px"><a href="/cottage-presto.htm"   title="">  Готовый дом 136 м2</a></h3>  </div>
             <p style="line-height:20px;">+коммуникации<br /> +участок 10,5 соток <br />за <b style="color:#C33;font-size:16px;">4,893 млн.р.*</b><br /><br /><span style="font-size:11px;">*при 100% оплате</span</p>
         </div>
+    </div>
+        <span class="close">Закрыть</span>
     </div>
     <div class="wrapper">
         <div class="main">
