@@ -32,7 +32,8 @@ $(document).ready(function() {
         $(".1 .slid").jCarouselLite({
             btnNext: ".1  .next-a",
             btnPrev: ".1  .prew-a",
-            circular: false
+            circular: true
+
         });
     });
 
