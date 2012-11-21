@@ -155,10 +155,10 @@ else if ((substr_count($_SERVER['REQUEST_URI'], 'adwords')>0)&&($_COOKIE['ads']!
             <p class="tel"><span>(812)</span>900-33-10</p>
             <a href="#zv_popup" rel="popup" class="zakaz">Заказать<br> звонок</a>
             <p class="reklama">Реклама/партнерам</p>
-            <p class="tel-second">(812)900-51-10</p> <br>  <br>
+            <p class="tel-second">(812)900-51-10</p>
         </div>
     </div>
-        <span class="close">Закрыть</span>
+
     </div>
     <div class="contacts-outer messege">
         <div class="contacts">
