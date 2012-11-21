@@ -162,8 +162,12 @@ a:focus, button:focus {
 .messege {
     top: 220px !important;
 }
-
-
+.gallerdy img{width: 350px;}
+#naww li{float: left;list-style-type: none;margin-left:40px ;}
+#naww{background: none;}
+.text .pr, .left-more .oldder, .gallery, .text .slid ul li h4  {padding: 0px;}
+.gallery .gallery .small-photo  img {width: 350px;}
+.gallery .gallery .small-photo li{overflow: none; width:400px !important;height: 340px !important;float: left;}
 .messege_ {
     top: 397px !important;
 }
